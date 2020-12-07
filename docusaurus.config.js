@@ -8,6 +8,11 @@ module.exports = {
   organizationName: 'aadityasivaS', // Usually your GitHub org/user name.
   projectName: 'express-ejs', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: '1c5559ffd1cf3054916c9ac3c9afb9eb',
+      indexName: 'WDAJALCFMP',
+      contextualSearch: true,
+    },
     navbar: {
       title: 'express-ejs',
       logo: {
