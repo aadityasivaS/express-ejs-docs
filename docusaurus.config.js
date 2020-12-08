@@ -10,8 +10,7 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: '3ffe96765bf15fb2697dbe5d61f1dd0d'',
-      indexName: 'express-ejs,
-      contextualSearch: true,
+      indexName: 'express-ejs
     },
     navbar: {
       title: 'express-ejs',
