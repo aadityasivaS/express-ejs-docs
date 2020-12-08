@@ -1,7 +1,7 @@
 module.exports = {
   title: 'express-ejs docs',
   tagline: 'express-ejs documentation',
-  url: 'https://express-ejs-docs.vercel.app',
+  url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -9,8 +9,8 @@ module.exports = {
   projectName: 'express-ejs', // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: '3ffe96765bf15fb2697dbe5d61f1dd0d'',
-      indexName: 'express-ejs
+      apiKey: '3ffe96765bf15fb2697dbe5d61f1dd0d',
+      indexName: 'express-ejs'
     },
     navbar: {
       title: 'express-ejs',
@@ -62,8 +62,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
           editUrl:
-            'https://github.com/aadityasivaS/express-ejs-docs',
+            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
