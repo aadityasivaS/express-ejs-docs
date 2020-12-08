@@ -9,8 +9,8 @@ module.exports = {
   projectName: 'express-ejs', // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: '1c5559ffd1cf3054916c9ac3c9afb9eb',
-      indexName: 'WDAJALCFMP',
+      apiKey: '3ffe96765bf15fb2697dbe5d61f1dd0d'',
+      indexName: 'express-ejs,
       contextualSearch: true,
     },
     navbar: {
