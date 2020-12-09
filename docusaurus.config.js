@@ -1,7 +1,7 @@
 module.exports = {
   title: 'express-ejs docs',
   tagline: 'express-ejs documentation',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://express-ejs-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
